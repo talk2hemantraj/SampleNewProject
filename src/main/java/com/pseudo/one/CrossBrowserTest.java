@@ -64,6 +64,7 @@ public class CrossBrowserTest {
 		password.sendKeys("guru99");
 	}
 	
+	//To closes the windows which will opened by the driver
 	@AfterTest
 	public void teardown(){
 		driver.quit();
